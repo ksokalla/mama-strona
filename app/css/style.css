@@ -1,6 +1,18 @@
-.testing {
-  width: 71.42857%;
+/*----------------general styles----------*/
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+/*----------------general styles end----------*/
+/*----------------navbar styles-----------*/
+.navbar {
+  font-weight: bold;
+  font-size: 1.1em; }
+
+.navbar-brand img {
+  width: 35px;
   height: auto; }
 
-body {
-  background-color: black; }
+.navbar-brand {
+  padding-top: 8px; }
+
+/*----------------navbar end--------------*/
