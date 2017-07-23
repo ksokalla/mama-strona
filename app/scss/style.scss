@@ -1,8 +1,25 @@
-.testing {
-  width: percentage(5/7);
-  height: auto;
-}
+/*----------------general styles----------*/
 
 body {
-	background-color: black;
+	font-family: 'Open Sans', sans-serif;
 }
+
+/*----------------general styles end----------*/
+
+/*----------------navbar styles-----------*/
+
+.navbar {
+	font-weight: bold;
+	font-size: 1.1em;
+}
+
+.navbar-brand img {
+	width: 35px;
+	height: auto;
+}
+
+.navbar-brand {
+	padding-top: 8px;
+}
+
+/*----------------navbar end--------------*/
