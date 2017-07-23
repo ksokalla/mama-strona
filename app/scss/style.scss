@@ -1,25 +1,91 @@
-/*----------------general styles----------*/
+	/*----------------general styles----------*/
 
 body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+
 /*----------------general styles end----------*/
+
 
 /*----------------navbar styles-----------*/
 
 .navbar {
 	font-weight: bold;
+	text-transform: uppercase;
 	font-size: 1.1em;
+	background-color: #49bdd7;
+	margin-bottom: 0;
 }
 
 .navbar-brand img {
 	width: 35px;
 	height: auto;
+	padding: 3px;
+	border: solid 2px #fff;
+	border-radius: 50%;
+}
+
+.navbar-brand img:hover {
+	border-color: #000;
+	transition: ease-in-out 0.5s;
 }
 
 .navbar-brand {
 	padding-top: 8px;
 }
 
-/*----------------navbar end--------------*/
+.navbar-default {
+	border: none;
+	border-radius: 0;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #fff;
+}
+
+.nav>li>a:hover {
+	transition: ease-in-out 0.5s;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+	background-color: #fff;
+}
+	/*----------------navbar styles end--------------*/
+/*-------------------header styles-----------------*/
+
+#header-container {
+	background-image: linear-gradient(
+					  rgba(0, 0, 0, 0.7), 
+					  rgba(0, 0, 0, 0.7)
+	            ),
+		url(../img/operation.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	text-align: center;
+	height: 80vh;
+	
+}
+
+#header-content {
+	position: absolute;
+	top: 180px;
+	left: 5%;
+	margin: auto;
+	color: white;
+	transform: translateY(-50%);
+	padding-right: 10px;
+	max-width: 500px;
+	color: #49bdd7;
+}
+
+#header-content p {
+	font-size: 1.5em;
+}
+
+#header-content span {
+	font-weight: bold;
+	color: #fff;
+}
