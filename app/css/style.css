@@ -1,6 +1,7 @@
 /*----------------general styles----------*/
 body {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: 'Open Sans', sans-serif;
+  margin: 0; }
 
 h2 {
   padding-left: 50px;
@@ -51,16 +52,14 @@ h2 {
   background-size: cover;
   background-repeat: no-repeat;
   text-align: center;
-  height: 80vh; }
+  height: 100vh; }
 
 #header-content {
   position: absolute;
   top: 180px;
   left: 5%;
-  margin: auto;
   color: white;
   transform: translateY(-50%);
-  padding-right: 10px;
   max-width: 500px;
   color: #49bdd7; }
 
@@ -74,10 +73,40 @@ h2 {
 /*-------------------header styles end-----------------*/
 /*-------------------about styles-----------------*/
 .columns {
-  width: 40%;
-  display: inline;
+  width: 50%;
+  display: inline-block;
   padding-left: 25px;
-  padding-right: 25px; }
+  padding-right: 25px;
+  text-align: justify;
+  padding-top: 25px; }
 
 .columns img {
   width: 100%; }
+
+/*-------------------about styles end-----------------*/
+/*-------------------services styles-----------------*/
+.services-blocks {
+  width: 152px;
+  height: 180px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 25px;
+  padding-left: 0;
+  padding-right: 0;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 14px 33px -4px rgba(140, 172, 179, 0.5);
+  -moz-box-shadow: 0px 14px 33px -4px rgba(140, 172, 179, 0.5);
+  box-shadow: 0px 14px 33px -4px rgba(140, 172, 179, 0.5);
+  text-align: center;
+  font-weight: bold;
+  border: 0.5px solid transparent;
+  border-radius: 4px; }
+
+.services-blocks img {
+  width: 150px;
+  height: 150px; }
+
+.services-blocks p {
+  margin-top: 5px; }
+
+/*-------------------services styles end-----------------*/

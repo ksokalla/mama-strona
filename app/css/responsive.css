@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+  .columns {
+    padding: 0; }
+  .columns img {
+    width: 100%; }
+  .row {
+    margin-left: 0;
+    margin-right: 0; } }
+
+@media (max-width: 320px) {
+  #header-content {
+    padding: 0;
+    top: 210px; }
+  #header-content h1, #header-content p {
+    font-size: 1.5em; } }
