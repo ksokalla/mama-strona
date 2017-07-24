@@ -4,6 +4,10 @@ body {
 	font-family: 'Open Sans', sans-serif;
 }
 
+h2 {
+	padding-left: 50px;
+	font-weight: bold;
+}
 
 /*----------------general styles end----------*/
 
@@ -88,4 +92,17 @@ body {
 #header-content span {
 	font-weight: bold;
 	color: #fff;
+}
+/*-------------------header styles end-----------------*/
+/*-------------------about styles-----------------*/
+
+.columns {
+	width: 40%;
+	display: inline;
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+.columns img {
+	width: 100%;
 }
